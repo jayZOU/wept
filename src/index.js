@@ -96,6 +96,7 @@ window.addEventListener('resize', debounce(function () {
   })
 }, 200))
 
+
 let serviceFrame = util.createFrame('service', '/appservice', true)
 Object.defineProperty(serviceFrame.contentWindow, 'prompt', {
   get: function () {
